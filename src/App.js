@@ -25,8 +25,8 @@ function App() {
           <Route path='/search'>
             <Search />
           </Route>
-          <Route>
-            <Recipe path='/recipes/:id' />
+          <Route path='/recipes/:id'>
+            <Recipe />
           </Route>
         </Switch>
       </BrowserRouter>
